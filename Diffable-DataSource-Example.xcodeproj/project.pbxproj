@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		3E8A4EB82870810B00F3FABC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8A4EB72870810B00F3FABC /* AppDelegate.swift */; };
-		3E8A4EBA2870810B00F3FABC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8A4EB92870810B00F3FABC /* SceneDelegate.swift */; };
-		3E8A4EBC2870810B00F3FABC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8A4EBB2870810B00F3FABC /* ViewController.swift */; };
-		3E8A4EBF2870810B00F3FABC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E8A4EBD2870810B00F3FABC /* Main.storyboard */; };
 		3E8A4EC12870810E00F3FABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E8A4EC02870810E00F3FABC /* Assets.xcassets */; };
 		3E8A4EC42870810E00F3FABC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E8A4EC22870810E00F3FABC /* LaunchScreen.storyboard */; };
+		3E8A4ECC2870814A00F3FABC /* DiffableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8A4ECB2870814A00F3FABC /* DiffableViewController.swift */; };
+		C79C91F8AA51B2321B15231F /* Pods_Diffable_DataSource_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C071C4B315D139688AED1A95 /* Pods_Diffable_DataSource_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3E8A4EB42870810B00F3FABC /* Diffable-DataSource-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Diffable-DataSource-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E8A4EB72870810B00F3FABC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3E8A4EB92870810B00F3FABC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3E8A4EBB2870810B00F3FABC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3E8A4EBE2870810B00F3FABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E8A4EC02870810E00F3FABC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E8A4EC32870810E00F3FABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E8A4EC52870810E00F3FABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E8A4ECB2870814A00F3FABC /* DiffableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffableViewController.swift; sourceTree = "<group>"; };
+		7C5612D6F13CEE7A9212F7E1 /* Pods-Diffable-DataSource-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diffable-DataSource-Example.debug.xcconfig"; path = "Target Support Files/Pods-Diffable-DataSource-Example/Pods-Diffable-DataSource-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C071C4B315D139688AED1A95 /* Pods_Diffable_DataSource_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Diffable_DataSource_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C37AABCA1039C13DBB3F66CD /* Pods-Diffable-DataSource-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diffable-DataSource-Example.release.xcconfig"; path = "Target Support Files/Pods-Diffable-DataSource-Example/Pods-Diffable-DataSource-Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C79C91F8AA51B2321B15231F /* Pods_Diffable_DataSource_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +43,8 @@
 			children = (
 				3E8A4EB62870810B00F3FABC /* Diffable-DataSource-Example */,
 				3E8A4EB52870810B00F3FABC /* Products */,
+				DA3CC6755671F91D35603748 /* Pods */,
+				5C9EBD9F91BEF40D97C4E263 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +60,30 @@
 			isa = PBXGroup;
 			children = (
 				3E8A4EB72870810B00F3FABC /* AppDelegate.swift */,
-				3E8A4EB92870810B00F3FABC /* SceneDelegate.swift */,
-				3E8A4EBB2870810B00F3FABC /* ViewController.swift */,
-				3E8A4EBD2870810B00F3FABC /* Main.storyboard */,
+				3E8A4ECB2870814A00F3FABC /* DiffableViewController.swift */,
 				3E8A4EC02870810E00F3FABC /* Assets.xcassets */,
 				3E8A4EC22870810E00F3FABC /* LaunchScreen.storyboard */,
 				3E8A4EC52870810E00F3FABC /* Info.plist */,
 			);
 			path = "Diffable-DataSource-Example";
+			sourceTree = "<group>";
+		};
+		5C9EBD9F91BEF40D97C4E263 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C071C4B315D139688AED1A95 /* Pods_Diffable_DataSource_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA3CC6755671F91D35603748 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C5612D6F13CEE7A9212F7E1 /* Pods-Diffable-DataSource-Example.debug.xcconfig */,
+				C37AABCA1039C13DBB3F66CD /* Pods-Diffable-DataSource-Example.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +93,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E8A4EC82870810E00F3FABC /* Build configuration list for PBXNativeTarget "Diffable-DataSource-Example" */;
 			buildPhases = (
+				BA57A2BF5DE23D3A2A9DA786 /* [CP] Check Pods Manifest.lock */,
 				3E8A4EB02870810B00F3FABC /* Sources */,
 				3E8A4EB12870810B00F3FABC /* Frameworks */,
 				3E8A4EB22870810B00F3FABC /* Resources */,
+				25063B0DFF2B7BEF9A84A829 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +148,66 @@
 			files = (
 				3E8A4EC42870810E00F3FABC /* LaunchScreen.storyboard in Resources */,
 				3E8A4EC12870810E00F3FABC /* Assets.xcassets in Resources */,
-				3E8A4EBF2870810B00F3FABC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25063B0DFF2B7BEF9A84A829 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Diffable-DataSource-Example/Pods-Diffable-DataSource-Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Diffable-DataSource-Example/Pods-Diffable-DataSource-Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Diffable-DataSource-Example/Pods-Diffable-DataSource-Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA57A2BF5DE23D3A2A9DA786 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Diffable-DataSource-Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3E8A4EB02870810B00F3FABC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E8A4EBC2870810B00F3FABC /* ViewController.swift in Sources */,
 				3E8A4EB82870810B00F3FABC /* AppDelegate.swift in Sources */,
-				3E8A4EBA2870810B00F3FABC /* SceneDelegate.swift in Sources */,
+				3E8A4ECC2870814A00F3FABC /* DiffableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3E8A4EBD2870810B00F3FABC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3E8A4EBE2870810B00F3FABC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3E8A4EC22870810E00F3FABC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +337,7 @@
 		};
 		3E8A4EC92870810E00F3FABC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C5612D6F13CEE7A9212F7E1 /* Pods-Diffable-DataSource-Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,7 +348,6 @@
 				INFOPLIST_FILE = "Diffable-DataSource-Example/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,6 +365,7 @@
 		};
 		3E8A4ECA2870810E00F3FABC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C37AABCA1039C13DBB3F66CD /* Pods-Diffable-DataSource-Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,7 +376,6 @@
 				INFOPLIST_FILE = "Diffable-DataSource-Example/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
